@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: javawebappcontainer
-        image: "mahantheshmr/javawebapp:{{DOCKER_TAG}}"
+        image: "dharaneeshd/jenkinsansible:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
